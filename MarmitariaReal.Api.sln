@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web API", "1 - Web API", "{C7695EB7-18CC-4D8C-96F5-1B7ABFBEB364}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{5040BA9E-CEEF-4994-8F5A-A13C6FAF722F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{3952C01C-76AF-4C6E-9B29-01AA9CECCF26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{F2988DA6-CC2E-4A96-BBF9-6F2A702ECDD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarmitariaReal.Api", "MarmitariaReal.Api\MarmitariaReal.Api.csproj", "{168EDF03-F3E3-4AFA-A466-C9A064770735}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarmitariaReal.Services", "MarmitariaReal.Services\MarmitariaReal.Services.csproj", "{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarmitariaReal.Domain", "MarmitariaReal.Domain\MarmitariaReal.Domain.csproj", "{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Repositories", "4.1 - Repositories", "{B7B82C92-54E0-4B42-82ED-779DC6C08559}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarmitariaReal.Repositories", "MarmitariaReal.Repositories\MarmitariaReal.Repositories.csproj", "{21C26458-3C32-4219-93EA-5E4B647C7059}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168EDF03-F3E3-4AFA-A466-C9A064770735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168EDF03-F3E3-4AFA-A466-C9A064770735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168EDF03-F3E3-4AFA-A466-C9A064770735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168EDF03-F3E3-4AFA-A466-C9A064770735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21C26458-3C32-4219-93EA-5E4B647C7059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21C26458-3C32-4219-93EA-5E4B647C7059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21C26458-3C32-4219-93EA-5E4B647C7059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21C26458-3C32-4219-93EA-5E4B647C7059}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{168EDF03-F3E3-4AFA-A466-C9A064770735} = {C7695EB7-18CC-4D8C-96F5-1B7ABFBEB364}
+		{32CD2D4D-F836-4CC4-9443-ED8E5D8A6BA8} = {5040BA9E-CEEF-4994-8F5A-A13C6FAF722F}
+		{0FFA5BD4-958B-48F5-9BCC-FC4AC843CFE9} = {3952C01C-76AF-4C6E-9B29-01AA9CECCF26}
+		{B7B82C92-54E0-4B42-82ED-779DC6C08559} = {F2988DA6-CC2E-4A96-BBF9-6F2A702ECDD3}
+		{21C26458-3C32-4219-93EA-5E4B647C7059} = {B7B82C92-54E0-4B42-82ED-779DC6C08559}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D202A89-4819-43DA-BA91-6C2838251C38}
+	EndGlobalSection
+EndGlobal
